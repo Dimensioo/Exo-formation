@@ -1,0 +1,13 @@
+html {
+    background: url('img/congruent_pentagon.png');
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+  
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
