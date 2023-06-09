@@ -1,0 +1,173 @@
+html {
+    font-family: Arial, sans-serif;
+    background-color: #E5E5E5;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 15px;
+    background-color: #3E0303;
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.list {
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dragon {
+    display: flex;
+    background-color: #3E0303;
+    flex-basis: 40%;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dragonDesc {
+    display: flex;
+    flex-direction: column;
+    background-color: #3E0303;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.nameType {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info>a {
+    color: black;
+    background-color: #E5E5E5;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.info>a:hover {
+    background-color: gray;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #3E0303;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+select:invalid { 
+    color: gray; 
+}
+
+label {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    color: black;
+    background-color: #E5E5E5;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 200px;
+}
+
+input[type=submit]:hover {
+    background-color: gray;
+}
+
+footer {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer>a {
+    color: white;
+    background-color: #3E0303;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer>a:hover {
+    background-color: #691515;
+}
+
+@media screen and (max-width:1400px) {
+    .dragon {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .list {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .dragon {
+        flex-direction: column;
+    }
+
+    .nameType {
+        flex-direction: column;
+    }
+
+    input[type=submit] {
+        width: auto;
+    }
+}

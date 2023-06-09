@@ -124,7 +124,7 @@ input[type=submit]:hover {
     .member {
         flex-direction: column;
         margin-left: 10%;
-    margin-right: 10%;
+        margin-right: 10%;
     }
 
     .infoForm {
