@@ -20,6 +20,7 @@ p {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 header {
@@ -33,6 +34,7 @@ img {
     width: 100px;
     height: auto;
     border-radius: 50px;
+    border: 1px solid black;
 }
 
 .list {
@@ -159,11 +161,7 @@ footer>a:hover {
         margin-right: 10%;
     }
 
-    .dragon {
-        flex-direction: column;
-    }
-
-    .nameType {
+    .dragon, .nameType {
         flex-direction: column;
     }
 
